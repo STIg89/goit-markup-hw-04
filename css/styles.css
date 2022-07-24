@@ -239,7 +239,7 @@ img {
 }
 
 .benefits-article {
-    flex-basis: calc((100% - 90px) / 4);
+    flex-basis: calc(100% / 4 - var(--cardGap));
 }
 
 .benefits-article:not(:last-child) {
