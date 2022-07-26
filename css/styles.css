@@ -33,7 +33,11 @@ body {
     padding: 0 15px 0 15px;
 }
 
-section {
+.benefits,
+.whatdoing,
+.team,
+.clients,
+.cards {
     padding: 94px 0 94px 0;
 }
 
@@ -78,7 +82,6 @@ img {
     justify-content: space-between;
 }
 
-.effective,
 .effective-btn,
 .benefits-thumb,
 .social-link,
@@ -232,10 +235,6 @@ img {
 /* INDEX */
 
 .effective {
-    height: 600px;
-}
-
-.effective-bg {
     max-width: 1600px;
     height: 600px;
     margin: 0 auto;
@@ -244,6 +243,7 @@ img {
     url('../img/heroBG.jpg') center no-repeat,
     var(--bgG);
     background-size: cover;
+    padding: 200px 0;
 }
 
 .effective-title {
