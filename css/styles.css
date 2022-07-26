@@ -296,7 +296,9 @@ img {
 
 .whatdoing-images,
 .team-cards,
-.benefits-columns {
+.benefits-columns,
+.clients-list,
+.icons-list {
     display: flex;
     justify-content: space-between;
 }
@@ -311,11 +313,7 @@ img {
 }
 
 .benefits-article {
-    flex-basis: calc(100% / 4 - var(--cardGap));
-}
-
-.benefits-article:not(:last-child) {
-    margin-right: var(--cardGap);
+    flex-basis: calc((100% - var(--cardGap)*3) / 4);
 }
 
 .benefits-article h3 {
@@ -386,11 +384,6 @@ img {
     background-color: var(--accentColor);
 }
 
-.icons-list {
-    display: flex;
-    justify-content: space-between;
-}
-
 .social-link {
     width: 44px;
     height: 44px;
@@ -402,13 +395,6 @@ img {
 
 .social-icon {
     fill: inherit;
-}
-
-.clients-list {
-    display: flex;
-    justify-content: space-between;
-    gap: var(--cardGap);
-    flex-basis: calc(100% / 6 - var(--cardGap));
 }
 
 .client-link {
@@ -477,7 +463,7 @@ img {
 }
 
 .cards-card {
-    flex-basis: calc(100% / 3 - var(--cardGap));
+    flex-basis: calc((100% - var(--cardGap)*3) / 3);
     margin-right: var(--cardGap);
     margin-bottom: var(--cardGap);
 }
