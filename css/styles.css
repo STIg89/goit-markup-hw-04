@@ -68,7 +68,7 @@ img {
     fill: var(--accentColor);
 }
 
-.header>.container,
+.header-container,
 .whatdoing-images,
 .team-cards,
 .benefits-columns,
@@ -96,7 +96,7 @@ img {
     border-bottom: 1px solid #ECECEC;
 }
 
-.header>.container {
+.header-container {
     align-items: center;
 }
 
