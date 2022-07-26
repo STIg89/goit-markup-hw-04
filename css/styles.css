@@ -364,10 +364,6 @@ img {
     margin-bottom: 16px;
 }
 
-.team-thumb {
-    fill: var(--iconG);
-}
-
 .team-thumb .social-link:focus,
 .team-thumb .social-link:hover {
     fill: var(--bgW);
@@ -378,10 +374,7 @@ img {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-}
-
-.social-icon {
-    fill: inherit;
+    fill: var(--iconG);
 }
 
 .client-link {
